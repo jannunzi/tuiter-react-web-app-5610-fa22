@@ -1,0 +1,29 @@
+.border-fat {
+    border-width: 20px 30px 20px 30px; }
+.border-thin {
+    border-width: 4px; }
+.border-solid {
+    border-style: solid; }
+.border-dashed {
+    border-style: dashed; }
+.border-yellow {
+    border-color: #ffff07; }
+.border-red {
+    border-color: #ff7070; }
+.border-blue {
+    border-color: #7070ff; }
+.wd-padded-top-left {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+
+
+.padded-bottom-right {
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+.padding-fat {
+    padding: 50px;
+}

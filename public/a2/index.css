@@ -1,0 +1,31 @@
+
+#list-tag {
+    color: white;
+    background-color: blue;
+}
+
+h2 {
+    color: red;
+    background-color: yellow;
+    font-size: 5em;
+}
+
+.fg-blue {
+    color: blue;
+    background-color: yellow;
+}
+
+ul > li {
+    background-color: green;
+    color: white;
+}
+
+
+.selector-1 .selector-3 {
+    background-color: red;
+    color: white;
+}
+/*.selector-2 > .selector-3 > .selector-4 {*/
+/*    background-color: yellow;*/
+/*    color: blue;*/
+/*}*/
