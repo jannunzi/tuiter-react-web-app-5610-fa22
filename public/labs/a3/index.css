@@ -1,0 +1,174 @@
+.grid-row {
+    clear: both;
+}
+
+.grid-col-half-page {
+    width: 50%;
+    float: left;
+}
+
+.grid-col-third-page {
+    width: 33%;
+    float: left;
+}
+
+.grid-col-two-thirds-page {
+    width: 67%;
+    float: left;
+}
+
+
+
+
+.grid-col-left-sidebar {
+    width: 20%;
+    float: left;
+}
+
+.grid-col-main-content {
+    width: 60%;
+    float: left;
+}
+
+.grid-col-right-sidebar {
+    width: 20%;
+    float: left;
+}
+
+
+
+
+.bg-color-green {
+    background-color: green;
+}
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+    height: 100px;
+}
+
+
+.float-done {
+    clear: both;
+}
+
+.zindex-bring-to-front {
+    z-index: 10;
+}
+
+.zindex-bring-to-front-2 {
+    z-index: 20;
+}
+
+.pos-absolute-10-10 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.pos-absolute-50-50 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.pos-absolute-120-20 {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+}
+
+
+.pos-fixed {
+    position: fixed;
+    right: 0px;
+    top: 50%;
+}
+
+.bg-color-gray {
+    background-color: lightblue;
+    min-height: 30px;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.pos-relative-nudge-down-right {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.pos-relative-nudge-up-right {
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+}
+
+.bg-color-yellow {
+    background-color: yellow;
+}
+.bg-color-blue {
+    background-color: blue;
+}
+.bg-color-red {
+    background-color: red;
+}
+
+.fg-color-white {
+    color: white;
+}
+.dimension-portrait {
+    width: 75px;
+    height: 100px;
+    overflow-y: clip;
+}
+
+.dimension-landscape {
+    width: 150px;
+    height: 75px;
+}
+
+.dimension-square {
+    width: 75px;
+    height: 75px;
+}
+
+
+#p1 {
+    font-size: 0.5em;
+}
+
+.border-fat {
+    border-width: 20px 30px 20px 30px; }
+.border-thin {
+    border-width: 4px; }
+.border-solid {
+    border-style: solid; }
+.border-dashed {
+    border-style: dashed; }
+.border-yellow {
+    border-color: #ffff07; }
+.border-red {
+    border-color: #ff7070; }
+.border-blue {
+    border-color: #7070ff; }
+.wd-padded-top-left {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+
+
+.padded-bottom-right {
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+.padding-fat {
+    padding: 50px;
+}

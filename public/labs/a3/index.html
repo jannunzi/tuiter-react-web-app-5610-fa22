@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="index.css" rel="stylesheet"/>
+</head>
+<body>
+<h1>Cascading Style Sheet (CSS)</h1>
+
+<h2>Grid layout</h2>
+<div class="grid-row bg-color-gray">
+    <div class="grid-col-half-page bg-color-yellow">
+        <h3>Left half</h3>
+    </div>
+    <div class="grid-col-half-page bg-color-blue
+              fg-color-white">
+        <h3>Right half</h3>
+    </div>
+</div>
+
+
+
+<div class="grid-row">
+    <div class="grid-col-third-page bg-color-green
+              fg-color-white">
+        <h3>Left third</h3>
+    </div>
+    <div class="grid-col-two-thirds-page bg-color-red
+              fg-color-white">
+        <h3>Right two thirds</h3>
+    </div>
+</div>
+
+
+
+
+<div class="grid-row">
+    <div class="grid-col-left-sidebar bg-color-yellow">
+        <h3>Side bar</h3>
+        <p>This is the left sidebar</p>
+    </div>
+    <div class="grid-col-main-content bg-color-blue
+              fg-color-white">
+        <h3>Main content</h3>
+        <p>This is the main content. This is the main content.
+            This is the main content. </p>
+    </div>
+    <div class="grid-col-right-sidebar bg-color-green
+              fg-color-white">
+        <h3>Side bar</h3>
+        <p>This is the right sidebar</p>
+    </div>
+</div>
+
+
+
+
+
+<h2>Float</h2>
+<div>
+    <div class="float-left dimension-portrait bg-color-yellow">
+        Yellow
+    </div>
+    <div class="float-left dimension-portrait bg-color-blue fg-color-white">
+        Blue
+    </div>
+    <div class="float-left dimension-portrait bg-color-red">
+        Red
+    </div>
+    <img class="float-right"
+         src="https://www.staradvertiser.com/wp-content/uploads/2021/08/web1_Starship-gap2.jpg"/>
+    <div class="float-done"></div>
+</div>
+
+
+<h2>Style attribute and tag</h2>
+<h3>Style attribute</h3>
+<p style="background-color: blue; color: white">
+    Style attribute allows configuring look
+    and feel right on the element. Although it's
+    very convenient it is considered bad practice
+    and you should avoid using the style attribute
+</p>
+
+<div class="selector-1">
+
+    <h2>Z index</h2>
+    <div class="pos-relative">
+        <div class="pos-absolute-10-10
+        zindex-bring-to-front-2
+        bg-color-yellow
+        dimension-portrait">
+            Portrait
+        </div>
+        <div class="zindex-bring-to-front
+        pos-absolute-50-50
+        bg-color-blue fg-color-white
+        dimension-landscape">
+            Landscape
+        </div>
+        <div class="pos-absolute-120-20
+        bg-color-red dimension-square">
+            Square
+        </div>
+    </div><br/><br/><br/><br/><br/><br/><br/>
+
+    <h3>Fixed position</h3>
+
+    Checkout the blue square that says
+    "Fixed position" stuck all the way
+    on the right and half way down the
+    page. It doesn't scroll with the
+    rest of the page. Its position is
+    "Fixed".
+
+    <div class="pos-fixed dimension-square bg-color-blue fg-color-white">
+        Fixed position
+    </div>
+
+    <h3>Absolute position</h3>
+    <div class="pos-relative bg-color-gray">
+        <div class="pos-absolute-10-10 bg-color-yellow dimension-portrait">
+            Portrait
+        </div>
+        <div class="pos-absolute-50-50 bg-color-blue fg-color-white dimension-landscape">
+            Landscape
+        </div>
+        <div class="pos-absolute-120-20 bg-color-red dimension-square">
+            Square
+        </div>
+    </div><br/><br/><br/><br/><br/><br/><br/>
+
+    <h2>Z index</h2>
+    <div class="pos-relative">
+        <div class="pos-absolute-10-10
+        bg-color-yellow
+        dimension-portrait">
+            Portrait</div>
+        <div class="zindex-bring-to-front
+        pos-absolute-50-50
+        bg-color-blue fg-color-white
+        dimension-landscape">
+            Landscape</div>
+        <div class="pos-absolute-120-20
+        bg-color-red dimension-square">
+            Square</div>
+    </div><br/><br/><br/><br/><br/><br/><br/>
+
+    <h2>Position</h2>
+    <h3>Relative</h3>
+    <div>
+        <div class="bg-color-yellow bring-to-front
+             dimension-portrait">
+            <div class="pos-relative-nudge-down-right bg-color-blue fg-color-white">
+                Portrait
+            </div>
+        </div>
+        <div class="pos-relative-nudge-up-right
+             bg-color-blue fg-color-white
+             dimension-landscape">
+            <div class="">
+                Landscape
+            </div>
+        </div>
+        <div class="bg-color-red dimension-square">
+            Square
+        </div>
+    </div>
+
+    <h2>Dimension</h2>
+    <div>
+        <div id="p1" class="dimension-portrait bg-color-yellow">
+            Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait
+            Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait Portrait
+        </div>
+        <div class="dimension-landscape bg-color-blue fg-color-white">
+            Landscape
+        </div>
+        <div class="dimension-square bg-color-red">
+            Square
+        </div>
+    </div>
+
+    <h2 class="bg-color-yellow">Padding</h2>
+    <div class="wd-padded-top-left border-fat
+            border-red border-solid
+            bg-color-yellow">
+        Padded top left
+    </div>
+
+    <div class="padded-bottom-right border-fat
+            border-blue border-solid
+            bg-color-yellow">
+        Padded bottom right
+    </div>
+    <div class="padding-fat border-fat
+            border-yellow border-solid
+            bg-color-blue fg-color-white">
+        Padded all around
+    </div>
+
+    <h3>Document structure selectors</h3>
+    <div class="selector-2">
+        Selectors can be combined to refer elements in
+        particular places in the document
+        <p class="selector-3">
+            This paragraph's red background is referenced as
+            <br/>.selector-2 .selector3<br/>
+            meaning the descendant of some ancestor.
+            <br/>
+            <span class="selector-4">Whereas this span is adirect child of its parent</span>
+            <br/>
+            You can combine these relationships to create
+            specific styles depending on the document
+            structure
+        </p>
+    </div>
+
+
+    <h2>Borders</h2>
+    <p class="border-fat border-red border-solid">
+        Solid fat red border</p>
+    <p class="border-thin border-blue border-dashed">
+        Dashed thin blue border</p>
+
+</div>
+</body>
+</html>
