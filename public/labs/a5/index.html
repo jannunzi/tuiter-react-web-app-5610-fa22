@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link href="index.css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+            crossorigin="anonymous"></script>
+    <script src="jquery-examples.js"></script>
 </head>
 <body>
     <h1>Assignment 5 - JavaScript</h1>
+
+    <h2>jQuery examples</h2>
+    <div id="jquery-examples" style="background-color: lightblue">
+
+        <h3>ToDo:</h3>
+        <input id="new-todo" placeholder="todo"/>
+        <button id="add-todo">Add</button>
+        <ol id="todo">
+<!--            <li>Buy milk</li>-->
+<!--            <li>Pick up kids</li>-->
+        </ol>
+
+
+        <h3 id="hello">Hello There</h3>
+        <p id="click-me" onclick="clickMe()">Click me</p>
+        <label id="click-me-too">Click me too please!</label>
+
+        <h1 id="hideMe">Hide Me</h1>
+        <h1 id="hideMeTimed">Hide Me 2</h1>
+        <button id="clickToHide">Click to hide</button>
+        <button id="clickToShow">Click to show</button>
+        <button id="clickToToggle">Click to toggle</button>
+
+    </div>
+
     <script src="index.js"></script>
 </body>
 </html>
