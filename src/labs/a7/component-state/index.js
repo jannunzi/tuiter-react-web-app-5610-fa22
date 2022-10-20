@@ -62,7 +62,11 @@ const ComponentState = () => {
         })}
         value={profile.username}
       /><br/>
-      Password: <input value={profile.password} type="password"/><br/>
+      Password:
+      <input
+        onChange={() => {}}
+        value={profile.password}
+        type="password"/><br/>
 
 
       <pre>

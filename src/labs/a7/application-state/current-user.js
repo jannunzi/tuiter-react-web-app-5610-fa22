@@ -4,7 +4,7 @@ const initialState = {
   username: 'bob@hope.com'
 }
 
-const currentUserReducer = () => {
+const currentUserReducer = (state, action) => {
   return initialState
 }
 
