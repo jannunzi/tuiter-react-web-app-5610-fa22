@@ -1,14 +1,14 @@
 import Assignment6 from "./a6";
 import Assignment7 from "./a7";
+import {Route, Routes} from "react-router";
 
 function Labs() {
   return(
     <div>
-      <h1>Labs</h1>
-      <Assignment7/>
-      <Assignment6/>
-      <h2>Assignment 8</h2>
-      <h2>Assignment 9</h2>
+      <Routes>
+        <Route index element={<Assignment6/>}/>
+        <Route path="/a7" element={<Assignment7/>}/>
+      </Routes>
     </div>
   )
 }

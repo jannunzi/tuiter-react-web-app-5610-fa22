@@ -8,14 +8,13 @@ function App() {
   return(
     <BrowserRouter>
       <div className="container">
-        <h1>Welcome to WebDev</h1>
+        <h1>WebDev Fall 2022</h1>
         <Nav/>
         <Routes>
-          <Route index element={<Labs/>}/>
+          <Route path="/*" element={<Labs/>}/>
           <Route path="/hello" element={<h1>Hello</h1>}/>
           <Route path="/tuiter" element={<Tuiter/>}/>
         </Routes>
-        <h1>This is the footer</h1>
       </div>
     </BrowserRouter>
   )
